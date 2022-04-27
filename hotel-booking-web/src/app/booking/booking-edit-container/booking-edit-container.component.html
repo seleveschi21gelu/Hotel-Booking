@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Booking Page</title>
+</head>
+
+<body>
+    <div class="background-image">
+        <img src="https://media.istockphoto.com/photos/ro/portretul-femeii-turiste-%C8%99i-a-ridicat-m%C3%A2inile-%C8%99i-a-stat-aproape-de-fereastr%C4%83-c%C4%83ut%C3%A2nd-s%C4%83-id1199804796?k=20&m=1199804796&s=612x612&w=0&h=N_dOeQSlNhZ0T8p6b-Nr7AfD8cjH8LQEVlVHWbp6VE0="
+             alt="Hotel page background image"
+             class="background-img">
+        <!-- [booking]="booking$|async" -->
+        <div class="container col col-md-6">
+            <app-booking-edit-presentational [hotel]="hotel"
+                                             [booking]="selectedBooking"
+                                             [bookings]="bookings$|async"
+                                             (invalidErrorMessage)="onInvalidFormMessage($event)"
+                                             (createBookingEvent)="addBooking($event)"
+                                             (selectedBookingEvent)="onSelectedBooking($event)"
+                                             (updateBookingEvent)="updateBooking($event)">
+            </app-booking-edit-presentational>
+        </div>
+    </div>
+</body>
+
+</html>

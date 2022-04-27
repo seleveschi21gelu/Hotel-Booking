@@ -1,0 +1,23 @@
+<div class="card">
+    <div class="card-header"
+         style="font: small-caps bold 24px/1 sans-serif;"><span class="pageTitle"> {{pageTitle}} </span>
+        <button class="btn btn-outline-dark"
+                title="Add new hotel"
+                [routerLink]="['/hotel',0,'edit']"
+                (click)="addNewHotel()">
+            Add</button>
+    </div>
+
+    <div class="card-body">
+        <div class="list-group">
+            <button type="button"
+                    class="list-group-item"
+                    *ngFor="let hotel of hotels"
+                    [ngClass]="{'active': hotel?.id === selectedHotel?.id}"
+                    [ngStyle]="{'font-family': 'Arial, Helvetica, sans-serif;'}"
+                    (click)="onSelectedHotel(hotel)">
+                {{hotel.name}}
+            </button>
+        </div>
+    </div>
+</div>

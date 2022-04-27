@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+
+    <title>Hotel Home Page</title>
+</head>
+
+<body>
+    <div class="background-image">
+        <span class="hotel-header">
+            Hotel Booking
+        </span>
+        <img src="https://images.pexels.com/photos/1838554/pexels-photo-1838554.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+             alt="Hotel page background image"
+             class="background-img">
+    </div>
+    <div class="details">
+        <h4 class="first-text">
+            Online booking is a convenient way for travellers to research and book their holidays or work trips. They’ll
+            use the
+            internet to browse travel websites and look for hotels, flights, car rental, guided tours, attractions, and
+            more.</h4>
+        <br>
+        <h4 class="second-text">
+            Using online booking methods, travellers can often book and organise an entire trip in one sitting –
+            sometimes from a
+            single website. They can also plan and build itineraries for their trip.
+        </h4>
+    </div>
+    <div class="card-options">
+        <div class="container text-center">
+            <h2 class="display-4 mt96 mb-5">
+                Manage <b>hotels</b> easily and efficiently
+            </h2>
+            <div class="row o_equal_col_md mt48 mb96 text-left">
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="card o_card_app shadow  ">
+                        <div class="o_card_app_top align-items-center d-flex justify-content-between">
+                            <h4 class="fw_medium my-0 hotel-header-card">Hotels</h4>
+                            <div class="mt-n1 icon-card">
+                                <img class="img-card"
+                                     src="https://cdn-icons-png.flaticon.com/128/201/201426.png"
+                                     alt="Hotels"
+                                     loading="lazy" />
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="mb-0">Enjoy your free time in a very comfortable place. <br>
+                                <span style="font-weight: 600;">Check-out</span> our hotels.
+                            </p>
+                        </div>
+                        <div class="card-footer"
+                             routerLink="/hotel">
+                            <h6 class="text-right text-uppercase mb-0">Discover
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+
+                    <div class="card o_card_app shadow ">
+                        <div class="o_card_app_top align-items-center d-flex justify-content-between"
+                             style="border-top-color: #248e92;">
+                            <h4 class="fw_medium my-0 add-edit">Add Hotel</h4>
+                            <div class="mt-n1 icon-card">
+                                <img class="img-card"
+                                     src="https://t4.ftcdn.net/jpg/03/42/87/61/240_F_342876146_jCu8euZeGEROJVUsvUPmpK57rFaZVnK5.jpg"
+                                     alt="Blog"
+                                     loading="lazy" />
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="mb-0">Diversify the existing hotel list by adding a new one. <br>Quick and
+                                efficient.</p>
+                        </div>
+                        <div class="card-footer"
+                             [routerLink]="['hotel',0,'edit']">
+                            <h6 class="text-right text-uppercase mb-0">Discover</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-3">
+
+                    <div class="card o_card_app shadow ">
+                        <div class="o_card_app_top align-items-center d-flex justify-content-between"
+                             style="border-top-color: #934a4b;">
+                            <h4 class="fw_medium my-0 rent-header-card">Rent</h4>
+                            <div class="mt-n1 icon-card">
+                                <img class="img-card"
+                                     src="https://cdn-icons-png.flaticon.com/128/602/602320.png"
+                                     alt="Live Chat"
+                                     loading="lazy" />
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="mb-0">Rent a room for unforgettable moments of relaxation. <br>Be present in the
+                                moment.</p>
+                        </div>
+                        <div class="card-footer"
+                             routerLink="/booking-list">
+                            <h6 class="text-right text-uppercase mb-0">Discover</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row tropical-places">
+        <div class="col-sm-4">
+            <img src="https://images.pexels.com/photos/2631613/pexels-photo-2631613.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                 class="beach-view"
+                 alt="Exotic place">
+        </div>
+        <div class="col-sm-4">
+            <h5>So you want to get off the grid. You want to travel, explore exotic islands, and
+                experience
+                new cultures.
+                While there
+                are plenty of opportunities to explore domestically, the real adventure awaits a plane ride away. From
+                romantic getaways
+                in Bora Bora to overwater bungalows in the Maldives, there is no shortage of exotic destinations. Let
+                these
+                bucket-list
+                travel destinations inspire you to explore some of the world’s most exotic islands.</h5>
+        </div>
+        <div class="col-sm-4">
+            <img src="https://images.pexels.com/photos/732199/pexels-photo-732199.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                 class="sunset">
+        </div>
+    </div>
+
+    <div class="row mountain">
+        <div class="col-md-4 resort">
+            <img src="https://images.pexels.com/photos/3229916/pexels-photo-3229916.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                 alt="Mountain resort"
+                 class="mountain-resort">
+        </div>
+        <div class="col-md-2">
+            <h5 class="resort-description">A mountain resort is a place to holiday or vacation located in a mountainous
+                area. A place with numerous acitvities like skiing, snowboarding, ice climbing and ice skating are
+                practiced, as well as
+                places where summer activities such as mountain biking, mountain boarding, and hiking are pursued.</h5>
+        </div>
+        <div class="col-md-2">
+            <h5 class="resort-activities">What makes a good ski resort?
+                That means having a variety of terrain and a ski school for both adults and kids that nurtures a love of
+                the sport and
+                the mountain. Also, a quality resort must have good backup facilities, like rental shops that supply
+                everything skiers
+                and snowboarders need to enjoy their day on the mountain.</h5>
+        </div>
+        <div class="col-md-4 resort">
+            <img src="https://images.pexels.com/photos/7107529/pexels-photo-7107529.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                 alt="Mountain road to resort"
+                 class="mountain-resort">
+        </div>
+    </div>
+
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Web design</a></li>
+                            <li><a href="#">Development</a></li>
+                            <li><a href="#">Hosting</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item second">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Developer</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3 style="font-family: cursive;">Quotes</h3>
+                        <p>You can either experience the pain of discipline or the pain of regret. The choice is yours.
+                        </p>
+                        <p>Leap... and grow your wings on the way down.</p>
+                    </div>
+                    <div class="col item social"><a href="https://facebook.com/"><i
+                               class="icon ion-social-facebook"></i></a><a href="https://twitter.com/"><i
+                               class="icon ion-social-twitter"></i></a><a href="https://snapchat.com/"><i
+                               class="icon ion-social-snapchat"></i></a><a href="https://instagram.com/"><i
+                               class="icon ion-social-instagram"></i></a></div>
+                </div>
+                <p class="copyright">Gelu Seleveschi © March 2022</p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

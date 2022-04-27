@@ -1,0 +1,17 @@
+.nav {
+  position: relative;
+  height: 60px;
+  top: 0;
+  width: 100%;
+  color: transparent;
+  opacity: 0.9;
+  border-radius: 0 0 3px 0;
+  background-color: black;
+  z-index: 5;
+}
+
+.router-outlet {
+  position: absolute;
+  width: 100%;
+  top: 0;
+}

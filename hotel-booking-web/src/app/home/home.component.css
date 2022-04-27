@@ -1,0 +1,363 @@
+.col-md-12 {
+  width: 40%;
+}
+
+* {
+  padding: 0;
+}
+
+.background-img {
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  object-position: center;
+  filter: contrast(0.8);
+}
+
+.background-image {
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  overflow: hidden;
+  height: 75vh;
+}
+
+.hotel-header {
+  position: absolute;
+  color: white;
+  z-index: 1;
+  font-size: 90px;
+  font-family: math;
+  top: 155px;
+  right: 221px;
+}
+
+.details {
+  background-color: antiquewhite;
+  height: 305px;
+  opacity: 0.9;
+  margin-top: -6px;
+}
+
+h4 {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  position: relative;
+  top: 30px;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+}
+
+.card.o_card_app.shadow {
+  height: 200px;
+  width: 81%;
+}
+
+.container.text-center {
+  height: 40vh;
+}
+
+.card-footer {
+  height: 40px;
+}
+
+.fw_medium {
+  position: relative;
+  top: 0;
+  font-size: 18px;
+}
+
+.icon-card {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+
+.img-card {
+  width: 49px;
+  height: 100%;
+}
+
+.container.text-center {
+  position: relative;
+  top: 20px;
+}
+
+.card-body {
+  position: relative;
+  top: 20px;
+}
+
+.text-uppercase.mb-0 {
+  position: relative;
+  left: 80px;
+  top: 10px;
+  cursor: pointer;
+}
+
+.o_card_app_top {
+  border-style: solid;
+  border-color: floralwhite;
+  border-width: 0px;
+  background-color: gainsboro;
+  border-radius: 5px;
+}
+
+.add-edit {
+  position: relative;
+  right: 33px;
+}
+
+.hotel-header-card {
+  position: relative;
+  right: 53px;
+}
+
+.rent-header-card {
+  position: relative;
+  right: 65px;
+}
+
+.mb96.text-left {
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+
+.first-text {
+  position: relative;
+  float: left;
+  top: 40px;
+  font-family: cursive;
+  left: 20px;
+}
+
+.second-text {
+  position: relative;
+  float: right;
+  top: 90px;
+  font-family: cursive;
+  right: 15px;
+}
+
+.card-options {
+  background-color: floralwhite;
+  height: 420px;
+}
+
+.mt96.mb-5 {
+  position: relative;
+  padding-bottom: 30px;
+  top: 10px;
+}
+
+.footer-dark {
+  padding: 50px 0;
+  color: #f0f9ff;
+  background-color: #282d32;
+}
+
+.footer-dark h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.footer-dark ul {
+  padding: 0;
+  list-style: none;
+  line-height: 1.6;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.footer-dark ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 767px) {
+  .footer-dark .item:not(.social) {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom: 36px;
+}
+
+@media (max-width: 767px) {
+  .footer-dark .item.text {
+    margin-bottom: 0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity: 0.6;
+  margin-bottom: 0;
+}
+
+.footer-dark .item.social {
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .footer-dark .item.social {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+.footer-dark .item.social > a {
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+  margin: 0 8px;
+  color: #fff;
+  opacity: 0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity: 0.9;
+}
+
+.footer-dark .copyright {
+  text-align: center;
+  padding-top: 24px;
+  opacity: 0.3;
+  font-size: 13px;
+  position: relative;
+  top: 65px;
+}
+
+p {
+  font-family: cursive;
+}
+
+/* p.copyright {
+  position: relative;
+  bottom: 25px;
+} */
+
+.beach-view {
+  width: 65%;
+  height: 85%;
+  border-radius: 8px;
+  /* position: relative;
+  left: 16%;
+  top: 8%; */
+}
+
+.exotic-destinations {
+  position: relative;
+  height: 345px;
+}
+
+h5 {
+  position: relative;
+  font-family: cursive;
+  line-height: 2;
+  text-align: center;
+}
+
+.row.tropical-places {
+  height: 450px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.col-sm-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.sunset {
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  width: 65%;
+  height: 85%;
+}
+
+footer {
+  height: 250px;
+}
+
+.col.item.social {
+  position: relative;
+  top: 60px;
+}
+
+.col-md-3.item.second {
+  position: relative;
+  right: 80px;
+}
+
+.mountain {
+  height: 440px;
+  background-color: floralwhite;
+  width: 100%;
+}
+
+.col-md-3.resort {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.mountain-resort {
+  height: 85%;
+  width: 65%;
+  border-radius: 10px;
+}
+
+.col-md-2 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+h5.resort-description {
+  line-height: 1.5;
+  text-align: center;
+  margin-left: -35px;
+  width: 100%;
+}
+
+.mountain-road {
+  width: 100%;
+  height: 70%;
+  border-radius: 10px;
+}
+
+h5.resort-activities {
+  line-height: 1.4;
+  text-align: center;
+  width: 100%;
+}
+
+.col-md-4.resort {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+}

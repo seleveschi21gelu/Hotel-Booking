@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible"
+            content="IE=edge">
+      <meta name="viewport"
+            content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+</head>
+
+<body>
+      <div class="spinner"
+           *ngIf="!hotels.length">
+            <app-spinner></app-spinner>
+      </div>
+      <div class="center"
+           *ngIf="hotels.length">
+            <div class="container">
+                  <div class="row mt-5">
+                        <div class='col-md-4'>
+                              <app-hotels-list [hotels]="hotels"
+                                               [hotel]="hotel"
+                                               [selectedHotel]="selectedHotel"
+                                               (selectedHotelEvent)="onSelectedHotel($event)"
+                                               (addEmptyHotel)="onAddNewObject()">
+                              </app-hotels-list>
+                        </div>
+                        <div class="col-md-8">
+                              <div *ngIf="selectedHotel">
+                                    <app-hotel-details [hotel]="selectedHotel"
+                                                       (deleteHotelEvent)=onDeleteHotel($event)>
+                                    </app-hotel-details>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
+</body>
+
+</html>

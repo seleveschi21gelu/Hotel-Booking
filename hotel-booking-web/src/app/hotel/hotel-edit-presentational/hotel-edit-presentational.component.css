@@ -1,0 +1,338 @@
+.form-group.row {
+  margin-bottom: 10px;
+}
+
+.card {
+  width: 100%;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.4);
+  height: 85vh;
+  top: 30px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  font-size: 0.9rem;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.col-md-6 {
+  position: relative;
+  width: 50%;
+  left: 65px;
+}
+
+.uploadFile {
+  position: relative;
+  width: 153px;
+  height: 153px;
+  display: inline-block;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.btn.btn-outline-dark.upload {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  /* border-radius: 100px;
+  width: 40px; */
+  bottom: 0px;
+  left: 0;
+  margin: auto;
+}
+
+.checkbox {
+  height: 29px;
+  position: relative;
+  width: 25px;
+}
+
+.back-button {
+  position: relative;
+}
+
+.btn-secondary.back {
+  position: absolute;
+  top: 8px;
+  right: 25px;
+}
+
+.card-header {
+  position: relative;
+  height: 55px;
+}
+
+h5 {
+  font: small-caps bold 25px/1 sans-serif;
+  margin-top: 7px;
+}
+
+.form-group.row.save {
+  position: relative;
+}
+
+.btn.btn-success {
+  position: absolute;
+  right: 26px;
+  bottom: -8px;
+  width: 59px;
+  border-color: rgb(136, 85, 85);
+  background-color: rgb(94, 20, 20);
+}
+
+.col-md-7.pictures {
+  position: relative;
+}
+
+.buttons {
+  position: absolute;
+  right: -3px;
+  top: 8px;
+}
+
+.btn.btn-outline-dark.delete {
+  margin-left: 6px;
+}
+
+.upload-button {
+  width: 59px;
+  top: 8px;
+  position: relative;
+  right: 2px;
+}
+
+.form-control.file {
+  position: relative;
+  top: 7px;
+}
+
+.btn-outline-secondary.btn-sm {
+  width: 90px;
+  position: relative;
+  left: 8px;
+}
+
+input[type="text"][disabled] {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.btn-outline-secondary.btn-sm {
+  background-color: rgba(221, 76, 76, 0.3);
+  border-radius: 10px;
+  color: black;
+}
+
+.invalid-feedback {
+  color: #62060f;
+  text-align: center;
+  font-weight: 500;
+  font-size: 12px;
+  position: absolute;
+}
+
+.form-control.img {
+  background-color: rgba(255, 255, 255, 0.2);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: all;
+  margin: auto;
+  z-index: 1;
+  opacity: 0;
+}
+
+.form-control.is-invalid {
+  border-color: #760909;
+}
+
+img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: all;
+  margin: auto;
+  z-index: 2;
+}
+
+.img-responsive {
+  position: absolute;
+  border-radius: 8px;
+  bottom: 163px;
+  right: 240px;
+}
+
+.btn-outline-dark.change {
+  position: absolute;
+  background-color: red;
+  color: white;
+  font-weight: 700;
+  z-index: 2;
+  top: -15px;
+  left: 145px;
+  height: 30px;
+}
+
+span.x {
+  position: relative;
+  top: -4px;
+}
+
+.uploadFile {
+  border: 1px solid;
+  position: relative;
+}
+
+.uploadFile3 {
+  border: 1px solid;
+  width: 153px;
+  height: 153px;
+  display: inline-block;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 7px;
+  margin: auto;
+}
+
+.uploadFile4 {
+  border: 1px solid;
+  width: 153px;
+  height: 153px;
+  display: inline-block;
+  border-radius: 10px;
+  overflow: hidden;
+  position: absolute;
+  left: 0px;
+  right: 0;
+  top: 133px;
+  bottom: 0;
+  margin: auto;
+}
+
+.col-md-4.file4 {
+  position: absolute;
+  right: 0;
+}
+
+.uploadFile2 {
+  position: absolute;
+  top: -10px;
+  left: -25px;
+}
+
+.fa-upload {
+  position: absolute;
+  top: 44%;
+  right: 43%;
+  opacity: 0.7;
+}
+span.img-validations {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 24px;
+}
+
+.col-md-7 {
+  margin-left: 65px;
+  position: relative;
+}
+
+.col-md-3 {
+  text-align: center;
+  font-family: initial;
+  font-weight: 600;
+  font-size: larger;
+}
+
+.card-body {
+  overflow-y: auto;
+  height: 100%;
+  width: 100%;
+}
+
+.save-btn {
+  position: relative;
+}
+
+.col-md-7.first {
+  position: relative;
+  left: -40px;
+  top: 12px;
+}
+
+.col-md-7.second {
+  position: relative;
+}
+
+.form-group.row.images {
+  margin-top: 10px;
+  position: relative;
+}
+
+.fa.fa-upload.second {
+  position: revert;
+}
+
+.col-md-3.pic {
+  position: absolute;
+  bottom: 0;
+}
+
+.col-md-12 {
+  position: relative;
+  top: 160px;
+}
+
+.col-md-7.pic {
+  position: absolute;
+  right: 104px;
+  bottom: 14px;
+}
+
+.col-form-label.list {
+  margin-left: 100px;
+}
+
+.col-md-3.col-form-label.imgUrl {
+  position: relative;
+}
+
+.images-list {
+  text-align: center;
+  font-family: initial;
+  font-weight: 600;
+  font-size: larger;
+}
+
+.col-md-7.img-list {
+  position: relative;
+}
+
+.uploadFile.new {
+  margin-right: 20px;
+}
+
+.x.imgs {
+  position: absolute;
+  z-index: 100;
+  width: 25px;
+  height: 25px;
+  right: 0;
+  top: 0px;
+  background-color: red;
+  border-radius: 5px;
+  font-weight: 700;
+}

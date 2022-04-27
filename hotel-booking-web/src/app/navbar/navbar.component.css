@@ -1,0 +1,29 @@
+.navbar-nav {
+  position: absolute;
+  right: 50px;
+}
+
+nav {
+  background-color: rgba(255, 255, 255, 0.1);
+  position: absolute;
+  height: 60px;
+  width: 100%;
+}
+
+.navbar-brand {
+  position: absolute;
+  left: 40px;
+  font-size: 25px;
+  color: aliceblue;
+}
+
+.nav-item {
+  margin-left: 30px;
+}
+
+.nav-link {
+  color: aliceblue;
+  font-family: initial;
+  font-weight: 500;
+  font-size: 20px;
+}

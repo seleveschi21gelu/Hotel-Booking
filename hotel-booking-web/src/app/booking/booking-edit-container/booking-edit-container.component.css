@@ -1,0 +1,48 @@
+.background-img {
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  /* height: 100%; */
+  height: 100vh;
+  object-position: center;
+  filter: contrast(0.8);
+  position: absolute;
+}
+
+/* .background-image {
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  overflow: hidden;
+  height: 100vh;
+} */
+
+.container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 120px;
+  bottom: 120px;
+  margin: auto;
+  overflow: hidden;
+  height: fit-content;
+}
+
+.background-image {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+
+app-booking-edit {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  position: relative;
+  display: flex;
+}

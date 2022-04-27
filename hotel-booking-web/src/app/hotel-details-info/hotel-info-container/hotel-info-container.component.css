@@ -1,0 +1,34 @@
+body,
+html {
+  /* background-image: url("https://media.istockphoto.com/photos/acapulco-picture-id176505516?k=20&m=176505516&s=612x612&w=0&h=OkuajDytmNE-EpIh4ZdLOH-SPW7n7jXwJXS0RopIPJA="); */
+  background-image: url("/assets/images/hotel-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  /* margin-top: -50px; */
+  overflow: hidden;
+}
+.container {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+}
+.col-md-8 {
+  left: 190px;
+  top: 90px;
+  justify-content: center;
+  position: relative;
+}
+
+.center {
+  width: 100%;
+  margin: auto;
+  max-width: 980px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  display: table;
+}

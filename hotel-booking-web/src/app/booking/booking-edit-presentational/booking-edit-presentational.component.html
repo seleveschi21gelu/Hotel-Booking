@@ -1,0 +1,122 @@
+<div class="card">
+    <div class="card-header">
+        <h5>Booking</h5>
+        <div class="btn btn-outline-dark edit"
+             routerLink="/hotel">Back</div>
+    </div>
+    <div class="card-body">
+        <form novalidate
+              [formGroup]="bookingForm"
+              (ngSubmit)="saveBooking(booking)">
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label">Hotel *
+                </label>
+                <div class="col-md-7 pb-1">
+                    <input type="text"
+                           class="form-control"
+                           formControlName="hotelName">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label">FirstName *
+                </label>
+                <div class="col-md-7 pb-1">
+                    <input type="text"
+                           class="form-control"
+                           [ngClass]="{'is-invalid': displayMessage.firstName}"
+                           formControlName="firstName">
+                    <span class="invalid-feedback">{{displayMessage.firstName}}</span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label">LastName *
+                </label>
+                <div class="col-md-7 pb-1">
+                    <input type="text"
+                           class="form-control"
+                           [ngClass]="{'is-invalid': displayMessage.lastName}"
+                           formControlName="lastName">
+                    <span class="invalid-feedback">{{displayMessage.lastName}}</span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label">Date of Birth *
+                </label>
+                <div class="col-md-7 pb-1">
+                    <input type="date"
+                           class="form-control"
+                           [max]="todayDate"
+                           [ngClass]="{'is-invalid':displayMessage.dateOfBirth, 'notEmpty':bookingForm.controls.dateOfBirth.value}"
+                           formControlName="dateOfBirth">
+                    <span class="invalid-feedback">{{displayMessage.dateOfBirth}}</span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label">Email *
+                </label>
+                <div class="col-md-7 pb-1">
+                    <input type="text"
+                           class="form-control"
+                           [ngClass]="{'is-invalid': displayMessage.email}"
+                           formControlName="email">
+                    <span class="invalid-feedback">{{displayMessage.email}}</span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label">Phone *
+                </label>
+                <div class="col-md-7 pb-1">
+                    <input type="text"
+                           class="form-control"
+                           [textMask]="{mask:phoneMask}"
+                           [ngClass]="{'is-invalid': displayMessage.phone}"
+                           formControlName="phone">
+                    <span class="invalid-feedback">{{displayMessage.phone}}</span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label">Address *
+                </label>
+                <div class="col-md-7 pb-1">
+                    <input type="text"
+                           class="form-control"
+                           [ngClass]="{'is-invalid': displayMessage.address}"
+                           formControlName="address">
+                    <span class="invalid-feedback">{{displayMessage.address}}</span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label">Start Booking *
+                </label>
+                <div class="col-md-7 pb-1">
+                    <input type="date"
+                           class="form-control"
+                           [ngClass]="{'is-invalid':displayMessage.startBooking, 'notEmpty':bookingForm.controls.startBooking.value}"
+                           (change)="onDateChange()"
+                           formControlName="startBooking">
+                    <span class="invalid-feedback">{{displayMessage.startBooking}}</span>
+                </div>
+                <!-- [max]="maxDate > endDate?endDate: maxDate" -->
+            </div>
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label">End Booking *
+                </label>
+                <div class="col-md-7 pb-1">
+                    <input type="date"
+                           [min]="startDate"
+                           (change)="onDateChange()"
+                           [ngClass]="{'is-invalid': displayMessage.endBooking}"
+                           class="form-control"
+                           [ngClass]="{'is-invalid':displayMessage.endBooking, 'notEmpty':bookingForm.controls.endBooking.value}"
+                           [ngStyle]="{'color':(bookingForm.controls.endBooking.touched && bookingForm.controls.endBooking.dirty &&bookingForm.controls.endBooking.value )? 'black':'transparent'}"
+                           formControlName="endBooking">
+                    <span class="invalid-feedback">{{displayMessage.endBooking}}</span>
+                </div>
+            </div>
+            <div class="save-button">
+                <button class="btn btn-success"
+                        type="submit">Save</button>
+            </div>
+        </form>
+    </div>
+</div>

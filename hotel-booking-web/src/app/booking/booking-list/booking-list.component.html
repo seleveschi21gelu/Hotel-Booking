@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="background-image">
+        <img src="https://images.pexels.com/photos/8369435/pexels-photo-8369435.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+             alt="Hotel page background image"
+             class="background-img">
+    </div>
+    <div class="spinner"
+         *ngIf="!(bookingList$|async)?.length">
+        <app-spinner></app-spinner>
+    </div>
+    <div class="container">
+        <div class="card-body">
+            <div class="row">
+                <div class="table-responsive">
+                    <table class="table mb-0"
+                           *ngIf="(bookingList$|async) && (bookingList$|async)?.length">
+                        <thead>
+                            <tr>
+                                <th>First Name</th>
+                                <th>Last Name</th>
+                                <th>Email</th>
+                                <th>Start Date</th>
+                                <th>End Date</th>
+                                <th>Hotel name</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let booking of (bookingList$|async)">
+                                <td>{{booking.firstName}}</td>
+                                <td>{{booking.lastName}}</td>
+                                <td>{{booking.email}}</td>
+                                <td>{{booking.startBooking|date:'MM-dd-yyyy'}}</td>
+                                <td>{{booking.endBooking |date:'MM-dd-yyyy'}}</td>
+                                <td>{{booking.hotelName}}</td>
+                                <td><button class="btn btn-outline-dark"
+                                            [routerLink]="['/booking',booking.id,'edit']"
+                                            (click)="onSelectedBooking(booking)"><span class="edit">Edit</span></button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

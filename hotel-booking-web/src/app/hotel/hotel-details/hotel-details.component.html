@@ -1,0 +1,89 @@
+<div class="card"
+     *ngIf="hotel">
+    <h1 hidden>Hotel</h1>
+    <div class="card-header">
+        <h5 class="header">{{pageTitle + ': ' + hotel?.name }}</h5>
+        <div class="btns">
+            <button class="btn btn-outline-dark booking"
+                    title="Edit"
+                    [routerLink]="['/booking',0,'edit']">Booking</button>
+            <button class="btn btn-outline-dark edit"
+                    title="Edit"
+                    [routerLink]="['/hotel', hotel?.id, 'edit']"><i class="fa fa-edit"
+                   aria-hidden="false"></i></button>
+            <button class="btn btn-outline-dark delete"
+                    title="Delete"
+                    (click)="deleteHotel(hotel?.id)"><i class="fa fa-trash"
+                   aria-hidden="false"></i></button>
+        </div>
+    </div>
+    <div class="card-body">
+        <form novalidate
+              [formGroup]="hotelForm">
+
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label"
+                       for="hotelNameId">Hotel
+                </label>
+                <div class="col-md-6">
+                    <input class="form-control"
+                           type="text"
+                           id="hotelNameId"
+                           formControlName="name">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label"
+                       for="hotelAddressId">Address
+                </label>
+                <div class="col-md-6">
+                    <input class="form-control"
+                           type="text"
+                           id="hotelAddressId"
+                           formControlName="address">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label">Email</label>
+                <div class="col-md-6">
+                    <input type="text"
+                           class="form-control"
+                           formControlName="emailAddress">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label">Phone</label>
+                <div class="col-md-6">
+                    <input type="text"
+                           class="form-control"
+                           formControlName="phone">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label">Employees No <span style="font-weight: 900;">#</span></label>
+                <div class="col-md-6">
+                    <input type="text"
+                           class="form-control"
+                           formControlName="employeesNumber">
+                </div>
+            </div>
+            <div class="imageSpace">
+                <img class="center-block img-responsive"
+                     [style.height.px]="170"
+                     [style.width.px]="170"
+                     [style.border-radius.px]="8"
+                     [src]="hotel?.image"
+                     [alt]="hotel?.image">
+            </div>
+            <div class="detailsButton">
+                <button class="btn btn-outline-dark"
+                        title="Hotel Details"
+                        [routerLink]="['/hotel-info', hotel.id]">Hotel Details</button>
+            </div>
+        </form>
+    </div>
+</div>

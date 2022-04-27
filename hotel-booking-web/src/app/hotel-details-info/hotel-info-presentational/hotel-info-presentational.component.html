@@ -1,0 +1,52 @@
+<div class="card mt-5"
+     [ngStyle]="{'min-height': hotelInfo?.id>0 ? '510px':'0'}">
+    <div class="card-header ml-4">
+        <h4>{{pageTitle + ": "}} {{hotelInfo?.id>0 ? hotelInfo?.hotelName : 'No details for this hotel'}}</h4>
+        <div class="editBtn">
+            <button class="btn btn-outline-dark"
+                    routerLink="/hotel">Back</button>
+        </div>
+    </div>
+    <div class="col-md-12"
+         *ngIf="hotelInfo?.id>0">
+        <div class="row ml-1 mt-2">
+            <div class="col-md-3 mt-2">Hotel</div>
+            <div class="col-md-6 mt-2">{{hotelInfo?.hotelName}}</div>
+        </div>
+        <div class="row ml-1">
+            <div class="col-md-3 mt-2">City</div>
+            <div class="col-md-6 mt-2">{{hotelInfo?.city}}</div>
+        </div>
+        <div class="row ml-1">
+            <div class="col-md-3 mt-2">Country</div>
+            <div class="col-md-6 mt-2">{{hotelInfo?.country}}</div>
+        </div>
+        <div class="row ml-1">
+            <div class="col-md-3 mt-2">Address</div>
+            <div class="col-md-6 mt-2">{{hotelInfo?.address}}</div>
+        </div>
+        <div class="row ml-1">
+            <div class="col-md-3 mt-2">Phone</div>
+            <div class="col-md-6 mt-2">{{hotelInfo?.phone}}</div>
+        </div>
+        <div class="row ml-1">
+            <div class="col-md-3 mt-2">Rooms</div>
+            <div class="col-md-6 mt-2">{{hotelInfo?.rooms}}</div>
+        </div>
+        <div class="row ml-1">
+            <div class="col-md-3 mt-2">Star Rating</div>
+            <div class="col-md-6 stars">
+                <app-stars [rating]="hotelInfo?.stars"></app-stars>
+            </div>
+        </div>
+        <div class="row ml-1">
+            <div class="col-md-3 mt-3 label">Images</div>
+            <div class="pics col-md-9 mt-3">
+                <span *ngFor="let pic of hotelInfo?.pictures">
+                    <img [src]="pic"
+                         [alt]="pic">
+                </span>
+            </div>
+        </div>
+    </div>
+</div>

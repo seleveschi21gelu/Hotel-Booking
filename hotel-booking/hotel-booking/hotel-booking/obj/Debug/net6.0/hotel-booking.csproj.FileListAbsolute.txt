@@ -1,0 +1,126 @@
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\appsettings.Development.json
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\appsettings.json
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\hotel-booking.exe
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\hotel-booking.deps.json
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\hotel-booking.runtimeconfig.json
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\hotel-booking.dll
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\hotel-booking.pdb
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\obj\Debug\net6.0\hotel-booking.csproj.AssemblyReference.cache
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\obj\Debug\net6.0\hotel-booking.GeneratedMSBuildEditorConfig.editorconfig
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\obj\Debug\net6.0\hotel-booking.AssemblyInfoInputs.cache
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\obj\Debug\net6.0\hotel-booking.AssemblyInfo.cs
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\obj\Debug\net6.0\hotel-booking.csproj.CoreCompileInputs.cache
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\obj\Debug\net6.0\hotel-booking.MvcApplicationPartsAssemblyInfo.cs
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\obj\Debug\net6.0\hotel-booking.MvcApplicationPartsAssemblyInfo.cache
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\obj\Debug\net6.0\staticwebassets.build.json
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\obj\Debug\net6.0\staticwebassets.development.json
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\obj\Debug\net6.0\scopedcss\bundle\hotel-booking.styles.css
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\obj\Debug\net6.0\hotel-booking.csproj.CopyComplete
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\obj\Debug\net6.0\hotel-booking.dll
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\obj\Debug\net6.0\refint\hotel-booking.dll
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\obj\Debug\net6.0\hotel-booking.pdb
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\obj\Debug\net6.0\hotel-booking.genruntimeconfig.cache
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\obj\Debug\net6.0\ref\hotel-booking.dll
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\Humanizer.dll
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\AutoMapper.dll
+C:\gelu-azure\gelu-training\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\obj\Debug\net6.0\hotel-booking.csproj.AssemblyReference.cache
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\obj\Debug\net6.0\hotel-booking.GeneratedMSBuildEditorConfig.editorconfig
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\obj\Debug\net6.0\hotel-booking.AssemblyInfoInputs.cache
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\obj\Debug\net6.0\hotel-booking.AssemblyInfo.cs
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\obj\Debug\net6.0\hotel-booking.csproj.CoreCompileInputs.cache
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\obj\Debug\net6.0\hotel-booking.MvcApplicationPartsAssemblyInfo.cs
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\obj\Debug\net6.0\hotel-booking.MvcApplicationPartsAssemblyInfo.cache
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\obj\Debug\net6.0\hotel-booking.dll
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\obj\Debug\net6.0\ref\hotel-booking.dll
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\obj\Debug\net6.0\hotel-booking.pdb
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\appsettings.Development.json
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\appsettings.json
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\hotel-booking.exe
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\hotel-booking.deps.json
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\hotel-booking.runtimeconfig.json
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\hotel-booking.dll
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\hotel-booking.pdb
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\AutoMapper.dll
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\Humanizer.dll
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\obj\Debug\net6.0\staticwebassets.build.json
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\obj\Debug\net6.0\staticwebassets.development.json
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\obj\Debug\net6.0\scopedcss\bundle\hotel-booking.styles.css
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\obj\Debug\net6.0\hotel-booking.csproj.CopyComplete
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\obj\Debug\net6.0\refint\hotel-booking.dll
+C:\Hotel Booking\hotel-project\hotel-booking\hotel-booking\hotel-booking\obj\Debug\net6.0\hotel-booking.genruntimeconfig.cache

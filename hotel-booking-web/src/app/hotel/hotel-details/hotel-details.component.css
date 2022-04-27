@@ -1,0 +1,107 @@
+.form-group.row {
+  margin-bottom: 10px;
+}
+
+input:disabled {
+  background-color: rgba(255, 255, 255, 0.1);
+  position: relative;
+}
+.imageSpace {
+  margin-top: -240px;
+  margin-left: 650px;
+}
+
+.card-body {
+  height: 270px;
+  position: relative;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+input {
+  margin-left: -40px;
+  border-color: revert;
+  font-family: monospace;
+}
+
+.btns {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.card-header {
+  position: relative;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.imageSpace {
+  position: absolute;
+  right: 20px;
+  bottom: 40px;
+  margin-bottom: 10px;
+}
+
+.card {
+  height: 350px;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.23);
+}
+
+.detailsButton {
+  margin-top: 10px;
+  position: absolute;
+  bottom: 0px;
+  right: 60px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+.btn-primary {
+  border-radius: 30px;
+}
+
+.btn-outline-dark.edit {
+  position: relative;
+  right: 65px;
+  border-radius: 10px;
+}
+
+.btn-outline-dark.delete {
+  position: absolute;
+  right: 20px;
+  border-radius: 10px;
+}
+
+.header {
+  margin-top: 7px;
+  font: small-caps bold 24px/1 sans-serif;
+}
+
+.center-block.img-responsive {
+  position: relative;
+  top: -12px;
+  right: inherit;
+}
+.col-md-6 {
+  padding-left: 40px;
+}
+
+.form-control,
+label {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.btn-outline-dark {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.btn-outline-dark.booking {
+  position: relative;
+  right: 70px;
+  border-radius: 10px;
+}
