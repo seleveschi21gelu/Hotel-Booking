@@ -231,7 +231,7 @@ export class HotelEditPresentationalComponent implements OnInit, OnChanges, Afte
           this.onFileSelectedEvent.emit(this.newPicture);
         }
       }
-      if (this.isImageUploaded) {
+      if (this.isImageUploaded || this.isImageChanged) {
         for (let pic of this.hotelImagesListEvent) {
           this.onPictureSelectedEvent.emit(pic);
         }
@@ -328,7 +328,7 @@ export class HotelEditPresentationalComponent implements OnInit, OnChanges, Afte
         maxlength: 'Country cannot have more than 25 characters.'
       },
       stars: {
-        rangeNumber: 'Rate the hotel between 1 (lowest) an 7 (highest).',
+        rangeNumber: 'Rate the hotel between 1 (lowest) and 7 (highest).',
         pattern: 'Only numbers are allowed.'
       },
       rooms: {
@@ -340,6 +340,7 @@ export class HotelEditPresentationalComponent implements OnInit, OnChanges, Afte
 
   readURLCoverImage(event: any) {
     let selectedFile: any;
+    let hotelName: string = this.hotelForm.get('name').value;
     selectedFile = event.target.files[0];
     if (event.target.files && event.target.files[0]) {
       var reader = new FileReader();
@@ -347,7 +348,11 @@ export class HotelEditPresentationalComponent implements OnInit, OnChanges, Afte
         this.coverImageUrl = event.target.result;
       }
       this.checkForValidExtensions(selectedFile.name);
-      this.hotelForm.patchValue({ image: `assets/images/${this.hotel.name}/cover-page/${selectedFile.name}` });
+      if (this.hotel != null) {
+        this.hotelForm.patchValue({ image: `assets/images/${this.hotel.name}/cover-page/${selectedFile.name}` });
+      } else {
+        this.hotelForm.patchValue({ image: `assets/images/${hotelName}/cover-page/${selectedFile.name}` });
+      }
       this.newPicture = event;
       this.isImageChanged = true;
       reader.readAsDataURL(event.target.files[0]);

@@ -8,6 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Upload\**" />
+    <Content Remove="Upload\**" />
+    <EmbeddedResource Remove="Upload\**" />
+    <None Remove="Upload\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="DAL\ViewModels\HotelVMCreate.cs" />
   </ItemGroup>
 
@@ -26,10 +33,6 @@
     </PackageReference>
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Upload\" />
   </ItemGroup>
 
 </Project>

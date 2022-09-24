@@ -2116,34 +2116,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\petrisor.seleveschi\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Gelu Seleveschi\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Hotel Booking\\hotel-project\\hotel-booking\\hotel-booking\\hotel-booking\\hotel-booking.csproj",
+      "projectUniqueName": "C:\\PersonalProjects\\Hotel Booking\\Hotel-Booking\\hotel-booking\\hotel-booking\\hotel-booking\\hotel-booking.csproj",
       "projectName": "hotel-booking",
-      "projectPath": "C:\\Hotel Booking\\hotel-project\\hotel-booking\\hotel-booking\\hotel-booking\\hotel-booking.csproj",
-      "packagesPath": "C:\\Users\\petrisor.seleveschi\\.nuget\\packages\\",
-      "outputPath": "C:\\Hotel Booking\\hotel-project\\hotel-booking\\hotel-booking\\hotel-booking\\obj\\",
+      "projectPath": "C:\\PersonalProjects\\Hotel Booking\\Hotel-Booking\\hotel-booking\\hotel-booking\\hotel-booking\\hotel-booking.csproj",
+      "packagesPath": "C:\\Users\\Gelu Seleveschi\\.nuget\\packages\\",
+      "outputPath": "C:\\PersonalProjects\\Hotel Booking\\Hotel-Booking\\hotel-booking\\hotel-booking\\hotel-booking\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\petrisor.seleveschi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Gelu Seleveschi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\DieselDirect\\DD Packages": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2217,7 +2214,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,31 +1,20 @@
-<div class="card"
-     [ngStyle]="{'height': isAdditionalInfo? '88vh':'100%'}">
+<div class="card" [ngStyle]="{'height': isAdditionalInfo? '88vh':'100%'}">
     <div class="card-header">
         <h5>{{ isEdit ? 'Hotel: ' + hotel?.name : 'Hotel' }}</h5>
         <div>
-            <button type="button"
-                    class="btn btn-secondary back"
-                    title="Back to hotels list"
-                    routerLink="/hotel">Back</button>
+            <button type="button" class="btn btn-secondary back" title="Back to hotels list"
+                routerLink="/hotel">Back</button>
         </div>
     </div>
 
-    <div class="card-body"
-         [ngStyle]="{'max-height': isAdditionalInfo? '884px':'600px'}">
-        <form novalidate
-              [formGroup]="hotelForm"
-              (ngSubmit)="saveHotel(hotel)">
+    <div class="card-body" [ngStyle]="{'max-height': isAdditionalInfo? '884px':'600px'}">
+        <form novalidate [formGroup]="hotelForm" (ngSubmit)="saveHotel(hotel)">
             <div class="form-group row">
-                <label class="col-md-3 col-form-label"
-                       for="hotelNameId">Hotel *
+                <label class="col-md-3 col-form-label" for="hotelNameId">Hotel *
                 </label>
                 <div class="col-md-7 mb-3">
-                    <input class="form-control"
-                           type="text"
-                           placeholder="Hotel name"
-                           id="hotelNameId"
-                           formControlName="name"
-                           [ngClass]="{'is-invalid': displayMessage.name}">
+                    <input class="form-control" type="text" placeholder="Hotel name" id="hotelNameId"
+                        formControlName="name" [ngClass]="{'is-invalid': displayMessage.name}">
                     <span class="invalid-feedback">
                         {{displayMessage.name}}
                     </span>
@@ -33,16 +22,11 @@
             </div>
 
             <div class="form-group row">
-                <label class="col-md-3 col-form-label"
-                       for="hotelAddressId">Address *
+                <label class="col-md-3 col-form-label" for="hotelAddressId">Address *
                 </label>
                 <div class="col-md-7 mb-3">
-                    <input class="form-control"
-                           type="text"
-                           placeholder="Address"
-                           id="hotelAddressId"
-                           [ngClass]="{'is-invalid': displayMessage.address}"
-                           formControlName="address">
+                    <input class="form-control" type="text" placeholder="Address" id="hotelAddressId"
+                        [ngClass]="{'is-invalid': displayMessage.address}" formControlName="address">
                     <span class="invalid-feedback">{{displayMessage.address}}</span>
                 </div>
             </div>
@@ -50,11 +34,8 @@
             <div class="form-group row">
                 <label class="col-md-3 col-form-label">Email *</label>
                 <div class="col-md-7 mb-3">
-                    <input type="text"
-                           class="form-control"
-                           placeholder="Email address"
-                           [ngClass]="{'is-invalid': displayMessage.emailAddress}"
-                           formControlName="emailAddress">
+                    <input type="text" class="form-control" placeholder="Email address"
+                        [ngClass]="{'is-invalid': displayMessage.emailAddress}" formControlName="emailAddress">
                     <span class="invalid-feedback">{{displayMessage.emailAddress}}</span>
                 </div>
             </div>
@@ -62,12 +43,9 @@
             <div class="form-group row">
                 <label class="col-md-3 col-form-label">Phone *</label>
                 <div class="col-md-7 mb-3">
-                    <input type="text"
-                           placeholder="Phone"
-                           class="form-control"
-                           [ngClass]="{'is-invalid':displayMessage.phone}"
-                           [textMask]="{mask: phoneMask}"
-                           formControlName="phone">
+                    <input type="text" placeholder="Phone" class="form-control"
+                        [ngClass]="{'is-invalid':displayMessage.phone}" [textMask]="{mask: phoneMask}"
+                        formControlName="phone">
                     <span class="invalid-feedback">{{displayMessage.phone}}</span>
                 </div>
             </div>
@@ -75,11 +53,8 @@
             <div class="form-group row">
                 <label class="col-md-3 col-form-label">Employees No *</label>
                 <div class="col-md-7 mb-3">
-                    <input type="text"
-                           class="form-control"
-                           placeholder='Number of employees'
-                           [ngClass]="{'is-invalid': displayMessage.employeesNumber}"
-                           formControlName="employeesNumber">
+                    <input type="text" class="form-control" placeholder='Number of employees'
+                        [ngClass]="{'is-invalid': displayMessage.employeesNumber}" formControlName="employeesNumber">
                     <span class="invalid-feedback">{{displayMessage.employeesNumber}}</span>
                 </div>
             </div>
@@ -87,59 +62,42 @@
                 <label class="col-md-3 col-form-label">Cover Image *</label>
                 <div class="col-md-7">
                     <div class="uploadFile">
-                        <input type="file"
-                               class="form-control img"
-                               (change)="readURLCoverImage($event)"
-                               [ngClass]="{'is-invalid':displayMessage.image}"><i class='fa fa-upload'></i>
+                        <input type="file" class="form-control img" (change)="readURLCoverImage($event)"
+                            [ngClass]="{'is-invalid':displayMessage.image}"><i class='fa fa-upload'></i>
                         <span class="invalid-feedback img-validations">{{displayMessage.image}}</span>
-                        <img [src]="coverImageUrl"
-                             *ngIf="coverImageUrl">
+                        <img [src]="coverImageUrl" *ngIf="coverImageUrl">
                     </div>
-                    <button class="btn btn-outline-dark change"
-                            type="button"
-                            *ngIf="hotelForm.value.image || coverImageUrl"
-                            title="Change image"
-                            (click)="onUploadImageEdit()"> <span class="x">X</span></button>
+                    <button class="btn btn-outline-dark change" type="button"
+                        *ngIf="hotelForm.value.image || coverImageUrl" title="Change image"
+                        (click)="onUploadImageEdit()"> <span class="x">X</span></button>
 
                 </div>
             </div>
             <div class="form-group row">
                 <label class="col-md-3 col-form-label">Additional Info</label>
                 <div class="col-md-7 ">
-                    <input type="checkbox"
-                           class="checkbox"
-                           (click)="additionalInfo()">
+                    <input type="checkbox" class="checkbox" (click)="additionalInfo()">
                 </div>
             </div>
             <div class="form-group row save">
-                <button class="btn btn-success"
-                        type="submit"
-                        *ngIf='!isAdditionalInfo'>Save</button>
+                <button class="btn btn-success" type="submit" *ngIf='!isAdditionalInfo'>Save</button>
             </div>
         </form>
 
-        <form [formGroup]="hotelInfoForm"
-              *ngIf="isAdditionalInfo"
-              (ngSubmit)="saveHotel(hotel)">
+        <form [formGroup]="hotelInfoForm" *ngIf="isAdditionalInfo" (ngSubmit)="saveHotel(hotel)">
             <div class="form-group row">
                 <label class="col-md-3 col-form-label">City</label>
                 <div class="col-md-7">
-                    <input type="text"
-                           class="form-control"
-                           placeholder="City"
-                           [ngClass]="{'is-invalid':displayMessage.city}"
-                           formControlName="city">
+                    <input type="text" class="form-control" placeholder="City"
+                        [ngClass]="{'is-invalid':displayMessage.city}" formControlName="city">
                     <span class="invalid-feedback">{{displayMessage.city}}</span>
                 </div>
             </div>
             <div class="form-group row">
                 <label class="col-md-3 col-form-label">Country</label>
                 <div class="col-md-7">
-                    <input type="text"
-                           class="form-control"
-                           placeholder="Country"
-                           [ngClass]="{'is-invalid': displayMessage.country}"
-                           formControlName="country">
+                    <input type="text" class="form-control" placeholder="Country"
+                        [ngClass]="{'is-invalid': displayMessage.country}" formControlName="country">
                     <span class="invalid-feedback">{{displayMessage.country}}</span>
                 </div>
             </div>
@@ -147,22 +105,16 @@
             <div class="form-group row">
                 <label class="col-md-3 col-form-label">Rooms</label>
                 <div class="col-md-7">
-                    <input type="text"
-                           class="form-control"
-                           placeholder="Rooms"
-                           [ngClass]="{'is-invalid': displayMessage.rooms}"
-                           formControlName="rooms">
+                    <input type="text" class="form-control" placeholder="Rooms"
+                        [ngClass]="{'is-invalid': displayMessage.rooms}" formControlName="rooms">
                     <span class="invalid-feedback">{{displayMessage.rooms}}</span>
                 </div>
             </div>
             <div class="form-group row">
                 <label class="col-md-3 col-form-label">Stars</label>
                 <div class="col-md-7">
-                    <input type="text"
-                           class="form-control"
-                           placeholder="Stars"
-                           [ngClass]="{'is-invalid': displayMessage.stars}"
-                           formControlName="stars">
+                    <input type="text" class="form-control" placeholder="Stars"
+                        [ngClass]="{'is-invalid': displayMessage.stars}" formControlName="stars">
                     <span class="invalid-feedback">{{displayMessage.stars}}</span>
                 </div>
             </div>
@@ -173,53 +125,42 @@
                     <div class="col-md-7 first  mb-1">
                         <div class="col-md-7">
                             <div class="uploadFile2">
-                                <input type="file"
-                                       class="form-control img"
-                                       (change)="readURLHotelImages($event)"><button class="btn btn-outline-dark"
-                                        style="border-radius: 100px;"><i class='fa fa-upload second'></i></button>
+                                <input type="file" class="form-control img"
+                                    (change)="readURLHotelImages($event)"><button class="btn btn-outline-dark"
+                                    style="border-radius: 100px;"><i class='fa fa-upload second'></i></button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="form-group row"
-                 *ngIf="hotelImageUrl || hotelImagesList.length">
+            <div class="form-group row" *ngIf="hotelImageUrl || hotelImagesList.length">
                 <label class="col-md-3 col-form-label"><span *ngIf="hotelImageUrl">Uploaded</span> </label>
                 <div class="col-md-7 img-list">
-                    <span class="images-list"
-                          *ngIf="hotelImagesList.length">Images</span>
+                    <span class="images-list" *ngIf="hotelImagesList.length">Images</span>
                 </div>
             </div>
-            <div class="form-group row"
-                 *ngIf="hotelImageUrl || hotelImagesList.length">
+            <div class="form-group row" *ngIf="hotelImageUrl || hotelImagesList.length">
                 <div class="col-md-3 col-form-label imgUrl">
-                    <div class="uploadFile3"
-                         *ngIf="hotelImageUrl">
+                    <div class="uploadFile3" *ngIf="hotelImageUrl">
                         <img [src]="hotelImageUrl">
-                        <button type="button"
-                                (click)="deleteImageUrl()"
-                                class="btn btn-danger"><span class="x imgs">X</span></button>
+                        <button type="button" (click)="deleteImageUrl()" class="btn btn-danger"><span
+                                class="x imgs">X</span></button>
                     </div>
                 </div>
                 <div class="col-md-7">
-                    <div class="uploadFile new"
-                         *ngFor="let im of hotelImagesList; let i=index">
-                        <img [src]="im"
-                             *ngIf="im"
-                             alt="No Image">
-                        <button type="button"
-                                (click)="deleteImage(i)"
-                                class="btn btn-danger"><span class="x imgs">X</span></button>
+                    <div class="uploadFile new" *ngFor="let im of hotelImagesList; let i=index">
+                        <img [src]="im" *ngIf="im" alt="No Image">
+                        <button type="button" (click)="deleteImage(i)" class="btn btn-danger"><span
+                                class="x imgs">X</span></button>
                     </div>
                 </div>
             </div>
 
             <div class="form-group row save-btn">
-                <button class="btn btn-success mb-3"
-                        style="position: absolute; right: 7px; bottom: -25px;"
-                        type="submit"
-                        title="Save hotel"
-                        *ngIf='isAdditionalInfo'>Save</button>
+                <button class="btn btn-success mb-3" style="position: absolute; right: 7px; bottom: -25px;"
+                    type="submit" title="Save hotel" *ngIf='isAdditionalInfo'>Save</button>
             </div>
         </form>
     </div>
+
+    {{this.hotelForm.get('name').value | json}}
