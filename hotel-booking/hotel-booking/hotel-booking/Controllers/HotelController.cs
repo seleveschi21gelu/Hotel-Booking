@@ -1,10 +1,13 @@
-﻿using hotel_booking.DAL.Models;
+﻿using hotel_booking.DAL;
+using hotel_booking.DAL.Models;
 using hotel_booking.DAL.ViewModels;
 using hotel_booking.IBLL;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace hotel_booking.Controllers
 {
+    [ApiKeyAuth]
     [Route("api/[controller]")]
     [ApiController]
     public class HotelController : ControllerBase
@@ -61,7 +64,7 @@ namespace hotel_booking.Controllers
         [HttpPost("upload")]
         public async Task<ActionResult> UploadImage(IFormFile image, [FromQuery] string name)
         {
-            var angularFolder = @$"C:\gelu-azure\gelu-training\hotel-project\hotel-booking-web\src\assets\images\{name}\";
+            var angularFolder = @$"C:\PersonalProjects\Hotel Booking\Hotel-Booking\hotel-booking-web\src\assets\images\{name}\";
             var coverPageFolder = angularFolder + "cover-page\\";
 
             try

@@ -4,6 +4,7 @@ using hotel_booking.IBLL;
 using hotel_booking.IRepository;
 using hotel_booking.Repository;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +15,52 @@ builder.Services.AddControllers().AddJsonOptions(x => x.JsonSerializerOptions.Pr
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "Api Key Auth", Version = "v1" });
+    c.AddSecurityDefinition("ApiKey", new Microsoft.OpenApi.Models.OpenApiSecurityScheme
+    {
+        Description = "ApiKey must appear in header",
+        Type = Microsoft.OpenApi.Models.SecuritySchemeType.ApiKey,
+        Name = "ApiKey",
+        In = Microsoft.OpenApi.Models.ParameterLocation.Header,
+        Scheme = "ApiKeyScheme"
+    });
+
+    var key = new OpenApiSecurityScheme()
+    {
+        Reference = new OpenApiReference { Type = ReferenceType.SecurityScheme, Id = "ApiKey" },
+        In = ParameterLocation.Header
+    };
+    var requirement = new OpenApiSecurityRequirement { { key, new List<string>() } };
+    c.AddSecurityRequirement(requirement);
+});
+
+//builder.Services.AddSwaggerGen(c =>
+//{
+//    c.SwaggerDoc("v1", new OpenApiInfo { Title = "dotnetClaimAuthorization", Version = "v1" });
+//    c.AddSecurityDefinition("ApiKey", new Microsoft.OpenApi.Models.OpenApiSecurityScheme
+//    {
+//        Description = "Please insert token",
+//        Type = Microsoft.OpenApi.Models.SecuritySchemeType.Http,
+//        Name = "Authorization",
+//        In = Microsoft.OpenApi.Models.ParameterLocation.Header,
+//        Scheme = "bearer",
+//        BearerFormat = "JWT"
+//    });
+
+//    c.AddSecurityRequirement(new OpenApiSecurityRequirement
+//    {
+//        { new OpenApiSecurityScheme
+//        {
+//            Reference = new OpenApiReference{
+//                Type = ReferenceType.SecurityScheme,
+//                Id = "Bearer"
+//            }
+//        }, new string[]{}
+//      }
+//    });
+//});
 
 string connString = builder.Configuration.GetConnectionString("DefaultConnectionString");
 builder.Services.AddDbContext<AppDBContext>(options =>
